@@ -1,0 +1,25 @@
+.teams{
+    padding: 30px 150px;
+}
+.teams-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.card-child{
+    flex-basis: 33.33333%;
+}
+.teams-button{
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width:840px){
+    .teams{
+        margin: 0;
+        padding: 10px 0;
+    }
+}

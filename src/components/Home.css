@@ -1,0 +1,57 @@
+.home{
+    height: 90vh;
+    padding-top: 70px;
+}
+.hero-area{
+    display: flex;
+    margin: 100px 150px;
+}
+.hero-image{
+    height: 450px;
+}
+.hero-text{
+    padding: 0 50px;
+}
+.hero-text h1{
+    color: rgb(5, 80, 124);
+}
+
+
+.hero-buttons {
+  text-decoration: none; 
+  position: relative; 
+  margin-right: 20px;
+  color: rgb(5, 80, 124);
+}
+
+.hero-buttons::before {
+  content: ''; 
+  position: absolute; 
+  width: 0; 
+  height: 2px; 
+  bottom: 0; 
+  background-color: rgb(5, 80, 124); 
+  transition: width 0.3s ease-in-out; 
+}
+
+.hero-buttons:hover::before {
+  width: 100%; 
+}
+
+@media screen and (max-width:840px){
+  .home{
+    height: 100%;
+    padding-top: 0;
+  }
+  .hero-area{
+    padding: 5%;
+    margin: 0;
+  }
+  .hero-image{
+    display: none;
+  }
+  .hero-text{
+    padding: 0;
+  }
+
+}
