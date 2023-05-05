@@ -21,19 +21,15 @@ function Hamburger() {
         <li onClick={handleMenuClick}>
           <a href="#home" >Home</a>
         </li>
-        <hr />
         <li onClick={handleMenuClick}>
           <a href="#about">About Us</a>
         </li>
-        <hr />
         <li onClick={handleMenuClick}>
           <a href="#teams">Teams</a>
         </li>
-        <hr />
         <li onClick={handleMenuClick}>
           <a href="#contact">Contact Us</a>
         </li>
-        <hr />
       </ul>
     </div>
   );

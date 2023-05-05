@@ -2,6 +2,7 @@
   .ham{
     display: none;
     margin: auto 0;
+    
   }
   .hamburger {
     display: flex;
@@ -34,7 +35,7 @@
   .menu {
     padding: 0;
     margin: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
     top: 70px;
@@ -45,12 +46,11 @@
     height: 100%;
     width: 100%;
     align-items: center;
-    opacity: 0;
     transition: 0.3s ease-in;
   }
   
   .menu.active {
-    opacity: 1;
+    display: flex;
     pointer-events: auto;
   }
   
@@ -63,11 +63,6 @@
   .menu li a {
     color: white;
     text-decoration: none;
-  }
-  .menu hr{
-    width: 100%;
-    margin: 0;
-    padding: 0;
   }
   @media screen and (max-width: 840px){
     .ham{
